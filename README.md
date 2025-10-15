@@ -29,3 +29,6 @@ Automation framework has full access and visibility into developmental implement
 A little bit of black and white box! You can see the implementation details, but you still write tests as if you only saw things as the user. usually, it's just a mindset shift from white box testing.
 
 There is no "best solution" as it depends on your organizational structure, how tightly coupled your teams are, team structure, etc. Hopefully this at least helps you create the automation in the right place!
+# Table of Contents
+### [Installation](./Step-1/README.md)
+### [Writing your first test](./Step-2/README.md)

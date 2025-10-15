@@ -37,4 +37,4 @@ Notice for this step, the `Beginning` folder is empty! This is because we are st
 
     ![](_images/firstrunsuccess.png)
 
-Congratulations! You should have the foundation of a playwright project in typescript! Move on to the [next step](../Step-2/README.md).
+#### Congratulations! You should have the foundation of a playwright project in typescript! Move on to the [next step](../Step-2/README.md).
