@@ -64,18 +64,22 @@ If you have opened the other files prior to this one, you may notice a lot of...
 7. Let's add our first custom script to `package.json` so we don't have to type `npx playwright test` every time. Let's save a few keystrokes! Open `package.json`
 8. There is a section called `scripts` and it shows up like this
     ```json
-    ...
-    "scripts": {},
-    ...
+    {
+      ...
+      "scripts": {},
+      ...
+    }
     ```
     The command to run any of the scripts is `npm run <command>` where `<command>` is what we define.
 9. Edit the `package.json` script to look like the following
     ```json
-    ...
-    "scripts": {
-      "test": "npx playwright test"
+    {
+      ...
+      "scripts": {
+        "test": "npx playwright test"
+      },
+      ...
     }
-    ...
     ```
     This means that when we run `npm run test` it is telling our project to run `npx playwright test`.
 
