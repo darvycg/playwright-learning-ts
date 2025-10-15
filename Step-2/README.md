@@ -51,13 +51,16 @@ If you have opened the other files prior to this one, you may notice a lot of...
     });
     ```
 5. Let's run the test! If you are using webstorm, you should see a play button right next to the test or you can run `npx playwright test` in the terminal window
+
     ![](./_images/runtest.png)
+
 6. If you ran through webstorm, you should get nice and pretty green
     ![](./_images/webstormtestpass.png)
 
     Or if you ran it through the terminal, you should see:
 
     ![](./_images/terminaltestpass.png)
+
 7. Let's add our first custom script to `package.json` so we don't have to type `npx playwright test` every time. Let's save a few keystrokes! Open `package.json`
 8. There is a section called `scripts` and it shows up like this
     ```json
