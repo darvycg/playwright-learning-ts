@@ -1,0 +1,16 @@
+{
+  "name": "playwright-learning-ts",
+  "version": "1.0.0",
+  "description": "Learn how to write automted tests in playwright as an example",
+  "license": "ISC",
+  "author": "Darvy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2"
+  }
+}
