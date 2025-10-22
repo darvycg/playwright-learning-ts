@@ -13,8 +13,8 @@ const test = mergeTests(loginFixture, homeFixture);
 
     await expect(loginPage.loginButton).toBeVisible();
 
-    await loginPage.enterUsername(username); // this is the parameter from the forEach loop
-    await loginPage.enterPassword(password); // this is the parameter from the forEach loop
+    await loginPage.enterUsername(username);
+    await loginPage.enterPassword(password);
     await loginPage.clickLogin();
 
     await homePage.openMenu();
