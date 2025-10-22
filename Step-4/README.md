@@ -174,4 +174,4 @@ test('has login button', async ({ page }) => {
     await expect(page.getByRole('link', { name: 'Logout' })).toBeVisible();
 });
 ```
-After you have completed the home page object implementation, check `End/` solution and then move on to [expanding login tests](../Step-5/README.md).
+#### After you have completed the home page object implementation, check `End/` solution and then move on to [expanding login tests](../Step-5/README.md).

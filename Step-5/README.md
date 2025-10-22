@@ -199,4 +199,4 @@ Now we can add the test code with a slight change to the validation step as indi
 ```
 It may seem like we have a lot of duplicate code here but since we are validating the login page, it is crucial to leave as is because it helps with documentation. In this case, it is crucial to prioritize readability. These tests can double as documentation on how to test these screens which will be crucial as the workflows get more complex.
 
-However, there *are* actions that we need to do to setup the test where rewriting is not needed. This is where fixtures come in. [Let's tackle that next](../Step-6/README.md)!
+#### However, there *are* actions that we need to do to setup the test where rewriting is not needed. This is where fixtures come in. [Let's tackle that next](../Step-6/README.md)!
