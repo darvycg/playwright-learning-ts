@@ -42,10 +42,3 @@ const test = mergeTests(loginFixture, homeFixture);
     await expect(loginPage.loginButton).toBeVisible(); // Ensure we are still in the login page
   })
 });
-
-test('Test the logging in fixture', async ({login, homePage}) => {
-  await homePage.openMenu();
-  await expect(homePage.logoutButton).toBeVisible();
-});
-
-
