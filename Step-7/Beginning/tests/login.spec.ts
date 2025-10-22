@@ -1,7 +1,6 @@
-import {expect, mergeTests} from '@playwright/test';
+import { expect, mergeTests} from '@playwright/test';
 import { test as loginFixture} from '@fixtures/LoginFixture'
 import { test as homeFixture} from '@fixtures/HomeFixture'
-import { HomePage } from "@pages/HomePage";
 
 const test = mergeTests(loginFixture, homeFixture);
 
