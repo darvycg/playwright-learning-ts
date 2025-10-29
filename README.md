@@ -37,3 +37,5 @@ Let's get started in [Step 1](./Step-1/README.md)!
 ### [Meaningful Tests](./Step-3/README.md)
 ### [Page Object Model (POM)](./Step-4/README.md)
 ### [Expanding Login Tests and Dealing with Errors](./Step-5/README.md)
+### [Implementing a Login Fixture](./Step-6/README.md)
+### [Adding Cart Tests](./Step-7/README.md)
