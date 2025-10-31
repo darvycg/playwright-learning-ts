@@ -176,4 +176,4 @@ Ultimately, this means that there *may* be duplicate code between the test and f
 
 Great! We have now added fixtures, added exhaustive login validations, and even created a couple of pages objects. 
 
-#### Let's keep expanding and adding our next workflow, adding to cart!
+#### Let's keep expanding and adding our next workflow, [adding to cart](../Step-7/README.md)!

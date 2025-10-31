@@ -4,13 +4,13 @@ export class HomePage {
   readonly page: Page;
   readonly menu: Locator;
   readonly logoutButton: Locator;
-  readonly allItems: Locator;
+  readonly links: Locator;
 
   constructor(page: Page) {
     this.page = page;
     this.menu = this.page.getByRole('button', { name: 'Open Menu' });
     this.logoutButton = this.page.getByRole('link', { name: 'Logout' });
-    this.allItems = this.page.locator('.inventory_item');
+    this.links = this.page.getByRole('link');
   }
 
   async openMenu() {
@@ -21,8 +21,7 @@ export class HomePage {
     await this.logoutButton.click();
   }
 
-  async clickOnSpecificItem(itemName: string) {
-    const allItems = await this.allItems.all();
-    await allItems.find(item => item.getByText(itemName)).click();
+  async clickOnSpecificLink(itemName: string) {
+    await this.links.getByText(itemName).click();
   }
 }
