@@ -39,3 +39,5 @@ Let's get started in [Step 1](./Step-1/README.md)!
 ### [Expanding Login Tests and Dealing with Errors](./Step-5/README.md)
 ### [Implementing a Login Fixture](./Step-6/README.md)
 ### [Adding Cart Tests](./Step-7/README.md)
+### [Base Page Creation and Extension](./Step-8/README.md)
+### [Using Environment Files and Variables](./Step-9/README.md)
